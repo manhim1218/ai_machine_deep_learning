@@ -1,4 +1,4 @@
-# Western Pacific Typhoon trajetories prediction. 
+# Western Pacific Typhoon trajetories prediction
 
 Predicting tropical cyclones trajectories using Convolutionary Neural network and Long Short Term Memory Neural Network 
 
