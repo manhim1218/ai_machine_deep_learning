@@ -1,5 +1,5 @@
 # Western Pacific Typhoon trajetories prediction. 
-### Title: Predicting tropical cyclones trajectories using Convolutionary Neural network and Long Short Term Memory Neural Network 
+### Title: <br> Predicting tropical cyclones trajectories using Convolutionary Neural network and Long Short Term Memory Neural Network 
 
 
 ### General description: 
