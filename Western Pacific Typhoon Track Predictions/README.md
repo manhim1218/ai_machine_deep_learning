@@ -43,3 +43,5 @@ The extracted image vector was then concantenated with the meteorological featur
 Cost function Result: Working on Progress 
 
 ```
+
+![Test Image 1](Visualisation of predicting super tyhoon Mangkhurt.png)
