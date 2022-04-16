@@ -6,6 +6,9 @@ A cosine similarity function was imported from the Word2Vec library to compare t
 Dataset was publicly available on Kaggle and it contains more than 500,000 scholarly articles in the medical field. <br>
 Link: https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge
 
+### Full Report
+Full details are covered in the report which has been uploaded in this respository.
+
 ### Demo
 
 #### Questions: What are signs and symptoms of the COVID-19?
@@ -20,5 +23,3 @@ the hyposmia and hypogeusia are neither predictors nor protective of severity of
 #### Extracted from (ie.title of scholar article):
 Course of Hyposmia and Hypogeusia and their Relationship with Severity of COVID-19 Disease among Indian Population
 
-### Full Report
-Full details are covered in the report which has been uploaded in this respository.
