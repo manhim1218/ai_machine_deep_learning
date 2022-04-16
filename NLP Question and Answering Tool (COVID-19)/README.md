@@ -22,3 +22,5 @@ the hyposmia and hypogeusia are neither predictors nor protective of severity of
 #### Extracted from (ie.title of scholar article):
 Course of Hyposmia and Hypogeusia and their Relationship with Severity of COVID-19 Disease among Indian Population
 
+#### Full Report
+Full details are covered in the report which has been uploaded in this respository.
