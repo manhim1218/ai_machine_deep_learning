@@ -21,11 +21,14 @@ Radius of maximum wind in 50 miles (SW), Radius of maximum wind in 50 miles (NW)
 Radius of maximum wind in 64 miles (NE), Radius of maximum wind in 64 miles (SE), 
 Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW) 
 
-Cost function (Performance metric): RMSE between actual track and predicted track
+Cost function (Performance metric): 
+RMSE between actual track and predicted track
 
-Latitude RMSE: 10 km (Good result)
+Latitude RMSE: 
+10 km (Good result)
 
-Longitude RMSE: 65 km (Continue to work on the longitude model to reduce RMSE for longitude predictions)
+Longitude RMSE: 
+65 km (Continue to work on the longitude model to reduce RMSE for longitude predictions)
 ```
 
 ### Current progress (up to April 2022)
