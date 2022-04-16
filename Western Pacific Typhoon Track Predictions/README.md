@@ -44,4 +44,4 @@ Cost function Result: Working on Progress
 
 ```
 
-![Test Image 1](Visualisation of predicting super tyhoon Mangkhurt.png)
+<p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
