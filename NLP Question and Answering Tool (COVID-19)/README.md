@@ -8,9 +8,9 @@ Link: https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-ch
 
 ### Demo
 
-Questions: What are signs and symptoms of the COVID-19?
+#### Questions: What are signs and symptoms of the COVID-19?
 
-Top Answer: 
+#### Top Answer: 
 The occurrence of hyposmia among Indian COVID-19 patients is 26.1% and that of hypogeusia is 26.8%. The proportion of
 patients presenting with hyposmia as the first symptom is 7.67% and hypogeusia as first symptom is 3.13%. There was no
 statistically significant difference between presence or absence of hyposmia/hypogeusia and severity of stage of COVID-19
@@ -19,6 +19,6 @@ Increased public awareness measures regarding these symptoms and its prognosis a
 early diagnosis, isolation and prevention of spread of pandemic. It should be highlighted to the patients and clinicians that
 the hyposmia and hypogeusia are neither predictors nor protective of severity of COVID-19 disease.
 
-Extracted from (ie.title of scholar article):
+#### Extracted from (ie.title of scholar article):
 Course of Hyposmia and Hypogeusia and their Relationship with Severity of COVID-19 Disease among Indian Population
 
