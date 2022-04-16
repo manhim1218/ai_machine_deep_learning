@@ -10,3 +10,4 @@ This ssd_mobilenet_v2 oid v4 model is capable of detecting 601 classes. Supporti
 
 
 ### Demo
+<p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
