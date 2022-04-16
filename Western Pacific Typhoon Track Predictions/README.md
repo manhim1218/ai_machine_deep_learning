@@ -30,6 +30,9 @@ Longitude RMSE:
 65 km (Continue to work on the longitude model to reduce RMSE for longitude predictions)
 ```
 
+### Visualisation of predicting supertyphoon Mangkhurt track in Western Pacific Region
+<p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
+
 ### Current progress (up to April 2022)
 #### Deep learning framework: Pytorch
 ```
@@ -44,5 +47,3 @@ Cost function Result: Working in Progress
 
 ```
 
-### Visualisation of predicting supertyphoon Mangkhurt track in Western Pacific Region
-<p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
