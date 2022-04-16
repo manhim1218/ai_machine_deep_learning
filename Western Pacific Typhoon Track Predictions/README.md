@@ -13,12 +13,14 @@ Two separate LSTM models were established to predict the latitude and longitude 
 #### Deep learning framework: Keras
 ```
 Meteorological features: 
-Latitude, 
-Longitude, 
-Distance to Land, Wind , 
-Pressure, 
-Radius of maximum wind in 34 miles (NE), 
-Radius of maximum wind in 34 miles (SE), Radius of maximum wind in 34 miles (SW), Radius of maximum wind in 34 miles (NW), Radius of maximum wind in 50 miles (NE), Radius of maximum wind in 50 miles (SE), Radius of maximum wind in 50 miles (SW), Radius of maximum wind in 50 miles (NW), Radius of maximum wind in 64 miles (NE),   Radius of maximum wind in 64 miles (SE), Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW) 
+Latitude, Longitude, Distance to Land, Wind ,Pressure, 
+Radius of maximum wind in 34 miles (NE), Radius of maximum wind in 34 miles (SE), 
+Radius of maximum wind in 34 miles (SW), Radius of maximum wind in 34 miles (NW), 
+Radius of maximum wind in 50 miles (NE), Radius of maximum wind in 50 miles (SE), 
+Radius of maximum wind in 50 miles (SW), Radius of maximum wind in 50 miles (NW), 
+Radius of maximum wind in 64 miles (NE), Radius of maximum wind in 64 miles (SE), 
+Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW) 
+
 Cost function (Performance metric): RMSE between actual track and predicted track
 
 Latitude RMSE: 10 km (Good result)
