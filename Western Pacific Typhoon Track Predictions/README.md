@@ -11,12 +11,14 @@ Two separate LSTM models were established to predict the latitude and longitude 
 
 ### Last progress summary (ie. December 2021)
 #### Deep learning framework: Keras
+```
 Meteorological features: Latitude, Longitude, Distance to Land, Wind , Pressure, Radius of maximum wind in 34 miles (NE), radius of maximum wind in 34 miles (SE), Radius of maximum wind in 34 miles (SW), Radius of maximum wind in 34 miles (NW), Radius of maximum wind in 50 miles (NE), radius of maximum wind in 50 miles (SE), Radius of maximum wind in 50 miles (SW), Radius of maximum wind in 50 miles (NW), Radius of maximum wind in 64 miles (NE), radius of maximum wind in 64 miles (SE), Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW)
 Cost function (Performance metric): RMSE between actual track and predicted track
 Latitude RMSE: 10 km (Good result)
 Longitude RMSE: 65 km (Continue to work on the longitude model to reduce RMSE for longitude predictions)
+```
 
 ### Current progress (up to April 2022)
-Deep learning framework: Pytorch
+#### Deep learning framework: Pytorch
 Conducted a granger causality test for features selection, however, none of the meteorological features had granger causality relationship to the latitude and longitude data. 
 Utilised a pretrained Resnet18 Convolution Neural Network to extra features from typhoon satelite images. The pretained CNN model delivered a vector representing the feature of the image of each typhoon for each timestamp. The extracted image vector was then concantenated with the meteorological features 
