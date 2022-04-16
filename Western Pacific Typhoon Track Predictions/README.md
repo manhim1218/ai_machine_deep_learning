@@ -7,12 +7,6 @@ Predicting tropical cyclones trajectories using Convolutionary Neural network an
 
 Two separate LSTM models were established to predict the latitude and longitude of a typhoon track every 3 hour from its previous timstamp. I have utilised Keras and Pytorch deep learning framework separately in Python as to train the LSTM models with 20 years of Western Pacific Region's typhoon data which is publicly available on NOAA data archive. The models were tested with the supertyphoon Mangkhut which was an unseen data to the LSTM model.
 
-### Numerical Data
-Full WP dataset.csv is provided in this respository. Original csv file can be downloaded from the NOAA data archive.
-
-### Image Data
-A python based webscrapping tool is provided in this respository. It might take days to scrap all satelite images from the website. ie Western Pacific typhoon images from the last 20 years
-
 ### Last progress summary (ie. December 2021)
 #### Deep learning framework: Keras
 ```
@@ -51,4 +45,8 @@ The extracted image vector was then concantenated with the meteorological featur
 Cost function Result: Working in Progress 
 
 ```
+### Numerical Data (17 meteorological features)
+Full WP dataset.csv is provided in this respository. Original csv file can be downloaded from the NOAA data archive.
 
+### Image Data for extracing image features from pretrained Resnet18 CNN model
+A python based webscrapping tool ie.Typhoon_image_scrapping_tool.py is provided in this respository. It might take days to scrap all satelite images from the website. ie Western Pacific typhoon images from the last 20 years
