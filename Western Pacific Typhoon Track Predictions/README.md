@@ -22,5 +22,7 @@ Longitude RMSE: 65 km (Continue to work on the longitude model to reduce RMSE fo
 
 ### Current progress (up to April 2022)
 #### Deep learning framework: Pytorch
+```
 Conducted a granger causality test for features selection, however, none of the meteorological features had granger causality relationship to the latitude and longitude data. 
 Utilised a pretrained Resnet18 Convolution Neural Network to extra features from typhoon satelite images. The pretained CNN model delivered a vector representing the feature of the image of each typhoon for each timestamp. The extracted image vector was then concantenated with the meteorological features 
+```
