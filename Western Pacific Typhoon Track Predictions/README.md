@@ -49,4 +49,4 @@ Cost function Result: Working in Progress
 Full WP dataset.csv is provided in this respository. Original csv file can be downloaded from the NOAA data archive.
 
 ### Image Data for extracing image features from pretrained Resnet18 CNN model
-A python based webscrapping tool is provided in this respository. It might take days to scrap all satelite images from the website. ie Western Pacific typhoon images from the last 20 years
+A python based webscrapping tool ie.Typhoon_image_scrapping_tool.py is provided in this respository. It might take days to scrap all satelite images from the website. ie Western Pacific typhoon images from the last 20 years
