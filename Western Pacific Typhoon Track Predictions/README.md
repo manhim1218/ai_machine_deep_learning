@@ -1,4 +1,4 @@
-# Western Pacific Typhoon trajetories prediction. 
+# Western Pacific Typhoon trajetories prediction
 
 Predicting tropical cyclones trajectories using Convolutionary Neural network and Long Short Term Memory Neural Network 
 
@@ -30,6 +30,9 @@ Longitude RMSE:
 65 km (Continue to work on the longitude model to reduce RMSE for longitude predictions)
 ```
 
+### Visualisation of predicting supertyphoon Mangkhurt track in Western Pacific Region
+<p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
+
 ### Current progress (up to April 2022)
 #### Deep learning framework: Pytorch
 ```
@@ -40,6 +43,7 @@ Utilised a pretrained Resnet18 Convolution Neural Network to extra features from
 The pretained CNN model delivered a vector representing the feature of the image of each typhoon for each timestamp. 
 The extracted image vector was then concantenated with the meteorological features 
 
-Cost function Result: Working on Progress 
+Cost function Result: Working in Progress 
 
 ```
+
