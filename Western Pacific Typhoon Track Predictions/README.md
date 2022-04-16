@@ -1,7 +1,8 @@
-This is my current research project regarding Western Pacific Typhoon trajetories prediction. 
+### This is my current research project regarding Western Pacific Typhoon trajetories prediction. 
 Title: Predicting tropical cyclones trajectories using Convolutionary Neural network and Long Short Term Memory Neural Network 
 
-General description: Two separate LSTM models were established to predict the latitude and longitude of a typhoon track every 3 hour from its previous timstamp. I have utilised Keras and Pytorch deep learning framework separately in Python as to train the LSTM models with 20 years of Western Pacific Region's typhoon data which is publicly available on NOAA data archive. The models were tested with the supertyphoon Mangkhut which was an unseen data to the LSTM model. 
+General description: 
+```Two separate LSTM models were established to predict the latitude and longitude of a typhoon track every 3 hour from its previous timstamp. I have utilised Keras and Pytorch deep learning framework separately in Python as to train the LSTM models with 20 years of Western Pacific Region's typhoon data which is publicly available on NOAA data archive. The models were tested with the supertyphoon Mangkhut which was an unseen data to the LSTM model.``` 
 
 Last progress summary (ie. December 2021)
 Deep learning framework: Keras
