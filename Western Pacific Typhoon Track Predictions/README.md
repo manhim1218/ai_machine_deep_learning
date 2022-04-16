@@ -10,7 +10,7 @@ Two separate LSTM models were established to predict the latitude and longitude 
 ### Numerical Data
 Full WP dataset.csv is provided in this respository. Original csv file can be downloaded from the NOAA data archive.
 
-### Image Data
+### Image Data for extracing image features from pretrained Resnet18 CNN model
 A python based webscrapping tool is provided in this respository. It might take days to scrap all satelite images from the website. ie Western Pacific typhoon images from the last 20 years
 
 ### Last progress summary (ie. December 2021)
