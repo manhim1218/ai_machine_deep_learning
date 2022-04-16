@@ -40,7 +40,7 @@ Utilised a pretrained Resnet18 Convolution Neural Network to extra features from
 The pretained CNN model delivered a vector representing the feature of the image of each typhoon for each timestamp. 
 The extracted image vector was then concantenated with the meteorological features 
 
-Cost function Result: Working on Progress 
+Cost function Result: Working in Progress 
 
 ```
 
