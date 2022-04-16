@@ -8,7 +8,7 @@ Link: https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-ch
 
 ### Demo
 
-Questions: Enter a question: What are signs and symptoms of the COVID-19?
+Questions: What are signs and symptoms of the COVID-19?
 
 Top Answer: 
 The occurrence of hyposmia among Indian COVID-19 patients is 26.1% and that of hypogeusia is 26.8%. The proportion of
