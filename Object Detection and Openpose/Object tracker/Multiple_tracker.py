@@ -38,9 +38,6 @@ classes =  ["background", "aeroplane", "bicycle", "bird", "boat", "bottle",
 bbox_colors = np.random.uniform(255, 0, size=(len(categories), 3))
      
 video = cv2.VideoCapture(0)
-result = cv2.VideoWriter('filename.avi', 
-                         cv2.VideoWriter_fourcc(*'MJPG'),
-                         10, (640, 480))
 
 boolean = False
 while (boolean == False):
@@ -88,16 +85,6 @@ print(type(bbox_4))
 
 bbox_6 = (bounding_box[0], bounding_box[1],
         bounding_box[2], bounding_box[3])
-
-# print("BBOX after loop: ", bbox_1)
-# print("BBOX after loop: ", bbox_2)
-# print("BBOX after loop: ", bbox_3)
-# print("BBOX after loop: ", bbox_4)
-# print("BBOX after loop: ", bbox_5)
-# print("BBOX after loop: ", bbox_6)
-
-# Uncomment the line below to select a different bounding box
-# bbox = cv2.selectROI(frame, False)
 
 # Initialize tracker with first frame and bounding box
 # ok_1 = tracker_1.init(frame, bbox_1)
@@ -228,69 +215,11 @@ while True:
     cv2.putText(frame, "FPS : " + str(int(fps)), (100, 50),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.75, (50, 170, 50), 2)
     
-    result.write(frame)
     # Display result
     cv2.imshow("Tracking", frame)
 
     if cv2.waitKey(10) & 0xFF == ord('q'):
         break
-        
-result.release()
+
 video.release()
 cv2.destroyAllWindows()
-
-
-
-# # Process the video
-# while cap.isOpened():
-
-#     # Capture one frame at a time
-#     success, frame = cap.read() 
-
-#     # Do we have a video frame? If true, proceed.
-#     if success:
-
-#       # Capture the frame's height and width
-#       (h, w) = frame.shape[:2]
-
-#       # Create a blob. A blob is a group of connected pixels in a binary 
-#       # frame that share some common property (e.g. grayscale value)
-#       # Preprocess the frame to prepare it for deep learning classification
-#       frame_blob = cv2.dnn.blobFromImage(cv2.resize(frame, RESIZED_DIMENSIONS), 
-#                      IMG_NORM_RATIO, RESIZED_DIMENSIONS, 127.5)
-
-#       # Set the input for the neural network
-#       neural_network.setInput(frame_blob)
-
-#       # Predict the objects in the image
-#       neural_network_output = neural_network.forward()
-
-#       # Put the bounding boxes around the detected objects
-#       for i in np.arange(0, neural_network_output.shape[2]):
-#             confidence = neural_network_output[0, 0, i, 2]
-
-#             if confidence > 0.30:
-#                 idx = int(neural_network_output[0, 0, i, 1])
-            
-#                 bounding_box = neural_network_output[0, 0, i, 3:7] * np.array(
-#                 [w, h, w, h])
-                
-#                 print(bounding_box)
-
-#                 (startX, startY, endX, endY) = bounding_box.astype("int")
-
-#                 label = "{}: {:.2f}%".format(classes[idx], confidence * 100) 
-
-#                 cv2.rectangle(frame, (startX, startY), (endX, endY), bbox_colors[idx], 2)     
-
-#                 y = startY - 15 if startY - 15 > 15 else startY + 15    
-
-#                 cv2.putText(frame, label, (startX, y),cv2.FONT_HERSHEY_SIMPLEX, 0.5, bbox_colors[idx], 2)
-                
-#     cv2.imshow("Tracking", frame)
-            
-#     if cv2.waitKey(10) & 0xFF == ord('q'):
-#             break
-
-# cap.release()
-# cv2.destroyAllWindows()
