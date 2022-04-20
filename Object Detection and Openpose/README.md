@@ -1,7 +1,7 @@
 # Tensorflow Object Detection / Openpose
 
 This respository now only provides algorithms for general usage on computer. 
-Examples of implementating on ROS (Pepper Robot) will be availalble after July 2022. 
+Examples of implementating on ROS (Pepper Robot) will be available after July 2022. 
 
 ## Tensorflow Object Detection 
 ### General Description: 
