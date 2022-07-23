@@ -24,7 +24,7 @@ This project implements OpenCV object detector API including 'BOOSTING', 'MIL', 
 ### Demo of object detection and openpose
 <p align="center"><img src="ironman.gif"\></p>
 
-#Customised Object Detection Model - Yolov3/Yolov4
+# Customised Object Detection Model - Yolov3/Yolov4
 ### Steps for training a customised Yolov3 tiny object detection model (same steps for Yolov4 as well)
 Use computer webcam to collect image data 
 
