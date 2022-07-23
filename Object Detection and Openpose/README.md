@@ -24,6 +24,7 @@ This project implements OpenCV object detector API including 'BOOSTING', 'MIL', 
 ### Demo of object detection and openpose
 <p align="center"><img src="ironman.gif"\></p>
 
+#Customised Object Detection Model - Yolov3/Yolov4
 ### Steps for training a customised Yolov3 tiny object detection model (same steps for Yolov4 as well)
 Use computer webcam to collect image data 
 
@@ -31,7 +32,7 @@ Use computer webcam to collect image data
 2. Change path on line 21 for directory that we want to save our images
 3. capture_frame = 10 means capture one image every 10 frames
 
-Label image data (Annotation)
+#### Label image data (Annotation)
 
 1. Open yolo_label folder and go to labelimg/data .
 2. ***Modify predefined_classes.txt for the detecting classes*** Make sure modify it, otherwise, wrong class index. Class index order does not matter.
@@ -48,7 +49,7 @@ Label image data (Annotation)
 The all_images_text folder is the final prepared product for images and annotation prior to training. 
 You can see there is a images.zip file inside the all_images_text folder which is ready to be uploaded on Google drive for training in Google Colab in then next step. Once you finished labelling and merging all image and text files, you should have a similar zip file *****
 
-Training
+#### Training
 
 Open yolov3_tiny_custom.ipynb file on Google Colab
 Go to Edit, then go to Notebook setting, make sure GPU is selected.
@@ -75,7 +76,7 @@ Go to Edit, then go to Notebook setting, make sure GPU is selected.
 1. Start training (run the training cell)
 2. To test the weight file, run the yolo_object_detection.py (change all the path for weights,cfg file and label file)
 
-Training on own computer
+#### Training on own computer
 
 Follow instruction here: https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects
 
