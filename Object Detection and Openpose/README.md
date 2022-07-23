@@ -26,7 +26,7 @@ This project implements OpenCV object detector API including 'BOOSTING', 'MIL', 
 
 # Customised Object Detection Model - Yolov3/Yolov4
 ### Steps for training a customised Yolov3 tiny object detection model (same steps for Yolov4 as well)
-Use computer webcam to collect image data 
+#### Use computer webcam to collect image data 
 
 1. Open capture_webcam_images.py in the yolo_label folder
 2. Change path on line 21 for directory that we want to save our images
