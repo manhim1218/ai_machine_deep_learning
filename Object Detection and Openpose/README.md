@@ -10,7 +10,7 @@ The ssd_inception_v2_coco_2017 model is a pretrained model based on CoCo dataset
 
 Combination of two models running simultaneously together will optimise the object detection capability. Threshold can be set differently to control false positive and false negative. 
 
-## Tensorflow / Tensorflow Lite Openpose - detect human joints
+## Tensorflow / Tensorflow Lite Openpose - detecting human joints and tracking human
 ### General Description: 
 This project implements Movenet pose estimation model, which is the latest pose estimation model from tensorflow, to detect keypoints of a human based on the confidence score from 0 to 1. The score indicates the probability of detecting a keypoint in a certain position, such as hip or ankle. There are two versions of multipose algorithms available at this repository, one is tensorflow version (Object_detection_openpose.py) and the other one is tensorflow lite version (movenet folder). 
 
