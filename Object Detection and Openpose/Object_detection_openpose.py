@@ -8,8 +8,8 @@ import numpy as np
 import time
 
 t0 = time.time()
-config_file = './graph.pbtxt.txt'
-frozen_model = './frozen_inference_graph.pb'
+config_file = './ssd_mobilenet_v2_oid_v4/graph.pbtxt.txt'
+frozen_model = './ssd_mobilenet_v2_oid_v4/frozen_inference_graph.pb'
 
 model_object_detection = cv2.dnn.readNetFromTensorflow(frozen_model, config_file)
 
@@ -19,7 +19,7 @@ t1 = time.time()
 
 
 classLabels = []
-file_name = './objects.names.txt'
+file_name = './ssd_mobilenet_v2_oid_v4/objects.names.txt'
 with open(file_name, 'rt') as fpt:
     classLabels = fpt.read().rstrip('\n').split('\n')
 
