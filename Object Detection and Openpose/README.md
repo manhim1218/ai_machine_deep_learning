@@ -4,7 +4,7 @@ This respository provides general computer vision algorithms for object detectio
 
 ## Tensorflow Object Detection 
 ### General Description: 
-The ssd_mobilenet_v2 oid v4 model is capable of detecting 601 classes. Supporting objects are shown in objects.names.txt. This tensorflow object detection API, created by Google, is an opensource framework which is very useful to the computer vision project. 
+The ssd_mobilenet_v2 oid v4 model is a pretrained model based on OpenImage version 4. It is capable of detecting 601 classes. Supporting objects are shown in objects.names.txt. This tensorflow object detection API, created by Google, is an opensource framework which is very useful to the computer vision project. 
 
 ## Tensorflow / Tensorflow Lite Openpose - detect human joints
 ### General Description: 
