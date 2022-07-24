@@ -33,20 +33,20 @@ one of the satellite image example for training in a CNN-LSTM model
 
 3.1 LSTM Regression model
 
-
-
+<p align=""><img src="lstm image.PNG" width="250"\></p>
 
 
 3.2 CNN-LSTM ensemble model
 
 
+<p align=""><img src="lstm cnn image.PNG" width="250"\></p>
 
 
 
 3.3 LSTM Classification model
 
 
-
+<p align=""><img src="lstm class arch image.PNG" width="250"\></p>
 
 
 ### Visualisation of predicting supertyphoon Mangkhurt track in Western Pacific Region
