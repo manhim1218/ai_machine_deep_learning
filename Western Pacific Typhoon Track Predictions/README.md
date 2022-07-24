@@ -36,19 +36,19 @@ one of the satellite image example for training in a CNN-LSTM model
 
 3.1 LSTM Regression model
 
-<p align=""><img src="lstm image.PNG" width="350"\></p>
+<p align=""><img src="lstm image.PNG" width="500"\></p>
 
 
 3.2 CNN-LSTM ensemble model
 
 
-<p align=""><img src="lstm cnn image.PNG" width="350"\></p>
+<p align=""><img src="lstm cnn image.PNG" width="500"\></p>
 
 
 3.3 LSTM Classification model
 
 
-<p align=""><img src="lstm class arch image.PNG" width="350"\></p>
+<p align=""><img src="lstm class arch image.PNG" width="500"\></p>
 
 
 ### Model comparison on RMSE 3 hours and 6 hours track error 
