@@ -22,9 +22,7 @@ Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW)
 
 2. Image Data
 
-<p align="center">
-  <img src="Example_of_typhoon_satellite_image.PNG" width="350" title="hover text">
-</p>
+<p align="center"><img src="Example_of_typhoon_satellite_image.PNG"\></p>
 
 3. Model Implementation
 
