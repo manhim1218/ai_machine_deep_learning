@@ -51,7 +51,7 @@ one of the satellite image example for training in a CNN-LSTM model
 
 ### Model comparison on RMSE track error
 
-<p align=""><img src="RMSE result.PNG" width="250"\></p>
+<p align=""><img src="RMSE result.PNG" width="1000"\></p>
 
 ### Visualisation of predicting supertyphoon Mangkhurt track in Western Pacific Region
 <p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
