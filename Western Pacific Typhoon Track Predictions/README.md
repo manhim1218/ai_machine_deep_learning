@@ -10,8 +10,9 @@ This project proposed different deep learning frameworks on real historical typh
 
 ### Summary (last update: July 2022)
 #### Deep learning framework: Pytorch
-```
+
 1. Meteorological data: 
+```
 Latitude, Longitude, Distance to Land, Wind ,Pressure, 
 Radius of maximum wind in 34 miles (NE), Radius of maximum wind in 34 miles (SE), 
 Radius of maximum wind in 34 miles (SW), Radius of maximum wind in 34 miles (NW), 
