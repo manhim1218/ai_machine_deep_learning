@@ -28,7 +28,7 @@ Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW)
 
 one of the satellite image example for training in a CNN-LSTM model
 
-#### 3. Model Implementation
+#### 3. Model architecture
 
 
 3.1 LSTM Regression model
@@ -49,10 +49,12 @@ one of the satellite image example for training in a CNN-LSTM model
 <p align=""><img src="lstm class arch image.PNG" width="250"\></p>
 
 
+### Model comparison on RMSE track error
+
+<p align=""><img src="RMSE result.PNG" width="250"\></p>
+
 ### Visualisation of predicting supertyphoon Mangkhurt track in Western Pacific Region
 <p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
-
-
 
 
 ### Numerical Data (17 meteorological features)

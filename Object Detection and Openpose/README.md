@@ -21,7 +21,7 @@ The tensorflow lite version is capable of tracking human and detecting human joi
 ### General Description: 
 This project implements OpenCV object detector API including 'BOOSTING', 'MIL', 'KCF', 'TLD', 'MEDIANFLOW' and 'CSRT'. Each detector has its own strength and weakness. My algorithm here is to use multiple detectors together (based on your preference) to take their strenths at one go. MobileNetSSD caffemodel is used here to detect object.  
 
-### Demo of object detection and openpose
+### Demo of object detection and openpose (ssd_mobilenet_v2 oid v4 and tensorflow openpose)
 <p align="center"><img src="ironman.gif"\></p>
 
 # Customised Object Detection Model - Yolov3/Yolov4
