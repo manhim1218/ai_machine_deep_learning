@@ -58,9 +58,9 @@ one of the satellite image example for training in a CNN-LSTM model
 ### One of the examples of visulaising 3 hours and 6 hours track prediction on Supertyphoon Manghkurt from CNN-LSTM ensemble model
 
 <p align="center"><img src="2018_MANGKHURT 3 hours CNN-LSTM.png" width="600"\></p>
-
+3 hours prediction
 <p align="center"><img src="2018_MANGKHURT 6 hours CNN-LSTM.png" width="600"\></p>
-
+6 hours prediction
 ### Numerical Data (17 meteorological features)
 Full WP dataset.csv is provided in this respository. Original csv file can be downloaded from the NOAA data archive.
 
