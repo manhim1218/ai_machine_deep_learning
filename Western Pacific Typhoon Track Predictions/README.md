@@ -26,9 +26,9 @@ Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW)
 
 <p align=""><img src="Example_of_typhoon_satellite_image.PNG" width="250"\></p>
 
+one of the satellite image example for training in a CNN-LSTM model
+
 #### 3. Model Implementation
-
-
 
 
 3.1 LSTM Regression model
