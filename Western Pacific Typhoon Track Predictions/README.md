@@ -28,7 +28,7 @@ Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW)
 
 one of the satellite image example for training in a CNN-LSTM model
 
-#### 3. Model Implementation
+#### 3. Model architecture
 
 
 3.1 LSTM Regression model
