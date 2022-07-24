@@ -1,7 +1,7 @@
 # Western Pacific Typhoon trajetories prediction
 
 #### Predicting the Western Pacific Region tropical cyclones trajectories using various Deep Learning Approaches
-<span style="background-color: #FFFF00">All details can be found at Thesis.pdf. The report outlines project motivations, model implementation methodologies and results details.</span>
+<span style="background-color: #00c3ff">All details can be found at Thesis.pdf. The report outlines project motivations, model implementation methodologies and results details.</span>
 
 ### General description: 
 
