@@ -22,6 +22,7 @@ Radius of maximum wind in 64 miles (SW), Radius of maximum wind in 64 miles (NW)
 
 2. Image Data
 
+![alt text](https://raw.githubusercontent.com/manhim1218/ai_machine_deep_learning/main/Western%20Pacific%20Typhoon%20Track%20Predictions/Example_of_typhoon_satellite_image.PNG)
 
 
 3. Model Implementation
