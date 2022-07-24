@@ -1,7 +1,7 @@
 # Western Pacific Typhoon trajetories prediction
 
 Predicting the Western Pacific Region tropical cyclones trajectories using various Deep Learning Approaches
-
+All details can be found at Thesis.pdf. The report outlines project motivations, model implementation methodologies and results details.
 
 ### General description: 
 
@@ -52,7 +52,7 @@ one of the satellite image example for training in a CNN-LSTM model
 
 <p align=""><img src="RMSE result.PNG" width="500"\></p>
 
-### One of the example of visulaising 3 hours and 6 hours track prediction on Supertyphoon Manghkurt from CNN-LSTM ensemble model
+### One of the examples of visulaising 3 hours and 6 hours track prediction on Supertyphoon Manghkurt from CNN-LSTM ensemble model
 
 <p align="center"><img src="2018_MANGKHURT 3 hours CNN-LSTM.png" width="600"\></p>
 
