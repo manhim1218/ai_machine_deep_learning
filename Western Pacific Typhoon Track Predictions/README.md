@@ -42,7 +42,6 @@ one of the satellite image example for training in a CNN-LSTM model
 <p align=""><img src="lstm cnn image.PNG" width="250"\></p>
 
 
-
 3.3 LSTM Classification model
 
 
@@ -53,9 +52,11 @@ one of the satellite image example for training in a CNN-LSTM model
 
 <p align=""><img src="RMSE result.PNG" width="500"\></p>
 
-### Visualisation of predicting supertyphoon Mangkhurt track in Western Pacific Region
-<p align="center"><img src="Visualisation of predicting super tyhoon Mangkhurt.png"\></p>
+### One of the example of visulaising 3 hours and 6 hours track prediction on Supertyphoon Manghkurt from CNN-LSTM ensemble model
 
+<p align="center"><img src="2018_MANGKHURT 3 hours CNN-LSTM.png"\></p>
+
+<p align="center"><img src="2018_MANGKHURT 6 hours CNN-LSTM.png"\></p>
 
 ### Numerical Data (17 meteorological features)
 Full WP dataset.csv is provided in this respository. Original csv file can be downloaded from the NOAA data archive.
